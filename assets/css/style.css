@@ -1,0 +1,82 @@
+
+
+
+
+
+
+
+
+#settings_tab_update_notice{
+  display: none;
+}
+#keys_tab_update_notice{
+   display: none;
+}
+
+#regenerate{
+  padding: 0px 2px 0px 2px;
+  border: 2px solid;
+  border-color: #ffc107;
+}
+.form-group >small{
+  padding: 0px 15px 0px 15px;
+  margin-top: 0px;
+}
+.nav-item{
+  margin: 1px !important;
+}
+#myTab{
+  background-color: whitesmoke;
+  margin: 5px !important;
+}
+
+
+
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 6;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 7;
+  }
+}
+.card-img-top{
+  max-height: 200px!important;
+}
+.tak-wrapper {
+    background-color: white ;
+}
+.form-container form  { display: table;      }
+.form-container form p     { display: table-row;  }
+.form-container form p label { display: table-cell; text-align:right; }
+.form-container form p input { display: table-cell; float: left; margin: 4px 10px 4px 10px !important;}
+.form-container-grid{
+  display:grid;
+}
+/*
+form div.controls { display: table-row;  }
+form div.controls p.submit input.submit_images { display: table-cell; }
+form div.controls p.submit input.submit_attributes { display: table-cell; }
+form div.controls p.submit input.submit_var_data { display: table-cell; }
+form div.controls p.submit input.submit_save_var { display: table-cell; }
+*/
+.caption {border:0px solid grey; caption-side: bottom; display: table-caption; text-align: center; }
+.caption p {float:right; margin:0px 0px 5px 0px;}
+#server-results{
+  font-size: 1.6em;
+  margin:10px;
+  vertical-align: middle;
+  display: inline-block;
+}
+div.controls p.submit{
+  display:inline-block;
+  margin-top: 6px;
+}
+.submit_images_status, .submit_attributes_status, .submit_var_data_status, .submit_save_var_status{
+  display: block;
+  margin: 10px;
+  font-size: 1.2em;
+}
+#get_base_product_status, #submit_images_status, #submit_attributes_status, #submit_var_data_status, #submit_save_var_status{
+  display: none;
+}
